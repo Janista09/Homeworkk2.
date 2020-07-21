@@ -18,7 +18,7 @@ int main()
 	cout << "Enter Commission Percent : ";
     cin >> Commission;
 	cout << "------------------------------------" << endl;
-    Total = (Sale*5/100)+Salary;
+    Total = (Sale*Commission/100)+Salary;
 	cout << "Your Name = " << Name << " " << Surname << endl;
 	cout << "Total Revenue  " << Total << " Bath " <<  endl;
 	cout << "------------------------------------" << endl;
